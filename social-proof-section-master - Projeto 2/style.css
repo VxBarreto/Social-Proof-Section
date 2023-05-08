@@ -10,17 +10,16 @@
 body {
     font-size: 0,94rem;
     height: 100vh;
-    width: 90rem;
-    display: flex;    
+    width: 120rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
 .wrapper {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80%;
     padding: 4rem;
 }
 
@@ -28,6 +27,23 @@ body {
     display: flex;
     color: hsl(300, 43%, 22%);
     padding: 6,25rem 8,75rem 1,25rem;
+}
+
+.descricao {
+    width: 50%;
+}
+
+.descricao__titulo {
+    width: 70%;
+    font-size: 3rem;
+    line-height: 3,13rem;
+}
+
+.descricao__afirmacao {
+    width: 85%;
+    line-height: 1,5rem;
+    margin-top: 5%;
+    opacity: 0.9;
 }
 
 .depoimentos {
