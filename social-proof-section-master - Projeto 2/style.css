@@ -8,17 +8,21 @@
 }
 
 body {
-    font-size: 0,94rem;
+    font-size: 0.94rem;
     height: 100vh;
-    width: 120rem;
+    width: 100vw;
     display: flex;
     box-sizing: border-box;
     justify-content: center;
+    align-items: center;
 }
 
 .wrapper {
+    height: 90vh;
     width: 80%;
-    display: flex;
+    display: inline-flex;
+    box-shadow: 0 0.94rem 1.87rem rgba(0, 81, 171, 0.148847);
+    border-radius: 0.31rem;
     flex-wrap: wrap;
     padding: 4rem;
 }
@@ -26,7 +30,7 @@ body {
 .content {
     display: flex;
     color: hsl(300, 43%, 22%);
-    padding: 6,25rem 8,75rem 1,25rem;
+    padding: 6.25rem 8.75rem 1.25rem;
 }
 
 .descricao {
@@ -36,16 +40,122 @@ body {
 .descricao__titulo {
     width: 70%;
     font-size: 3rem;
-    line-height: 3,13rem;
+    line-height: 3.13rem;
 }
 
 .descricao__afirmacao {
     width: 85%;
-    line-height: 1,5rem;
+    line-height: 1.5rem;
     margin-top: 5%;
     opacity: 0.9;
 }
 
+.rating__reviews {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1.25rem 1.25rem 1.25rem 1.87rem;
+    margin-top: 0.94rem;
+    margin-bottom: 0.94rem;
+    border-radius: 0.62rem;
+    width: 100%;
+    font-size: 0.75rem;
+}
+
+.rating__guru {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1.25rem 1.25rem 1.25rem 1.87rem;
+    margin-top: 0.94rem;
+    margin-bottom: 0.94rem;
+    margin-left: 3.12rem;
+    border-radius: 0.62rem;
+    width: 100%;
+    font-size: 0.75rem;
+}
+
+.rating__tech {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1.25rem 1.25rem 1.25rem 1.87rem;
+    margin-top: 0.94rem;
+    margin-bottom: 0.94rem;
+    margin-left: 6.25rem;
+    border-radius: 0.62rem;
+    width: 100%;
+    font-size: 0.75rem;
+}
+
+.stars{
+    margin-right: 2.5rem;
+}
+
+.stars img{
+    margin-right: 0.32rem;
+}
+
 .depoimentos {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 8.75rem;
+}
+
+.about {
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    padding: 2.5rem 1.87rem;
+    width: 23.44rem;
+    line-height: 1.5rem;
+    border-radius: 0.62rem;
+    font-size: 0.87rem;
+}
+
+.about2 {
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    padding: 2.5rem 1.87rem;
+    width: 23.44rem;
+    line-height: 1.5rem;
+    border-radius: 0.62rem;
+    font-size: 0.87rem; 
+    margin-left: 7%;
+}
+
+.about3 {
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    padding: 2.5rem 1.87rem;
+    width: 23.44rem;
+    line-height: 1.5rem;
+    border-radius: 0.62rem;
+    font-size: 0.87rem;
+    margin-left: 14%;
+}
+
+.about__caixa {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.87rem;
+}
+
+.about__caixa img {
+    width: 2.81rem;
+    height: 2.81rem;
+    border-radius: 50%;
+    margin-right: 1.25rem;
+}
+
+.tag {
+    color: hsl(333, 80%, 67%);
+}
+
+.card2{
+    margin-top: 2.5rem;
+}
+.card3{
+    margin-top: 5rem;
 }
